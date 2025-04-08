@@ -162,35 +162,34 @@ content: "";
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     padding: 20px;
-    background-color: #1a1a1a;
 }
 
 .about-me-item {
     display: flex;
     align-items: flex-start;
     gap: 15px;
-    color: white;
+    color: #fff;
 }
 
 .about-me-number {
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: bold;
-    color: white;
+    color: #fff;
     min-width: 60px;
     line-height: 1;
 }
 
 .about-me-text {
-    font-size: 1rem;
-    line-height: 1.4;
+        font-size: 20px;
+        line-height: 1.17073;
     max-width: 200px;
+    align-items: center;
 }
 
 .highlight {
     background-color: #0066ff;
-    color: white;
+    color: #fff;
     padding: 2px 4px;
-    border-radius: 4px;
 }
 
 @media screen and (min-width: 768px) { 
@@ -233,4 +232,14 @@ content: "";
         .about-me-photo {
           margin-right: 20%;
         }
+
+        .about-me-wrapper {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 50px;
+            justify-items: start;
+            margin: 0 80px;
+        }
 }
+
