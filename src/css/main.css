@@ -1,11 +1,11 @@
 /* Hero section */
 
 .hero-section  {
-        margin-bottom: 32px;
+        margin-bottom: 72px;
     }
 
 .hero-title {
-    font-size: clamp(38px, 10vw, 38px);
+    font-size: clamp(35px, 10vw, 38px);
     line-height: 2.86184;
     color: #fff;
 }
@@ -129,18 +129,19 @@ content: "";
 
 /* About me */ 
 .about-me-section { 
-    margin-bottom: 32px;
+    margin-bottom: 72px;
     position: relative;
 }
 
 .about-me-photo { 
-  margin: 20px;
+ margin:auto;
+ margin-bottom: 24px;
 }
 
 .about-me-title { 
-        font-size: 43px;
+        font-size: 38px;
         line-height: 1.13372;
-        padding-bottom: 10px;
+        margin-bottom: 12px;
 }
 
 .about-me-paragraph { 
@@ -245,7 +246,7 @@ content: "";
 
 /* Projects section */
 .projects-section { 
-    margin-bottom: 32px;
+    margin-bottom: 72px;
 }
 
 .projects-swiper {
@@ -321,23 +322,111 @@ font-weight: 600;
         }
 }
 
+/* Services section */
+.services-section {
+    margin-bottom: 72px;
+}
+
+.services-title { 
+        font-size: 28px;
+        line-height: 1.57258;
+        color: #0045ff;
+}
+
+.services-list-title { 
+        font-size: 28px;
+        line-height: 1.14286;
+        text-transform: lowercase;
+        color: #fff;
+}
+
+.services-list-text  {
+        font-size: 21px;
+        line-height: 1.66667;
+        color: #fff;
+}
+
+.services-list {
+    padding-bottom: 32px; 
+}
+
+.services-paragraph { 
+        font-size: 44px;
+        line-height: 1.71875;
+        color: #fff;
+        background-image: url('../img/webp/Clipped_image_20250407_155005.png');
+        background-size: 200px 400px;
+            background-position: right;
+            background-repeat: no-repeat;
+}
 
 
+/* FAQ section */
 
+.FAQ-section {
+    margin-bottom: 72px;
+} 
 
+.faq-item { 
+    margin-bottom: 42px;
+}
+
+.faq-title { 
+    margin-bottom: 24px;
+        font-size: 31px;
+        line-height: 1.57258;
+}
+
+.faq-question { 
+        font-size: 19px;
+        line-height: 1.31579;
+        cursor: pointer;
+}
+
+.faq-answer { 
+        font-size: 20px;
+        line-height: 1.25;
+        max-width: 350px;
+}
+
+.details.hidden {
+    display: none;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.3s ease, max-height 0.3s ease;
+}
+
+.details.show {
+    display: block;
+    opacity: 1;
+    max-height: 200px;
+}
+
+@media screen and (min-width: 768px) { 
+    .faq-item { 
+        transform: translateX(15%);
+    }
+}
+
+@media only screen and (min-width: 1440px) { 
+    .faq-item {
+            transform: translateX(10%);
+        }
+}
 
 
 /* Reviews section */
 
 .reviews-section { 
-    margin-bottom: 32px;
+    margin-bottom: 72px;
 }
 
 .reviews { 
         font-size: 24px;
         line-height: 1.04167;
         color: #0045ff;
-        margin-bottom: 16px;
+        margin-bottom: 24px;
 }
 
 .reviews-title { 
@@ -365,5 +454,37 @@ font-weight: 600;
 }
 
 @media screen and (min-width: 768px) { 
+.reviews-title { 
+    padding-left: 12%;
+}
+.reviews-paragraph { 
+    padding-left: 12%;
+    max-width: 400px;
+}
+
+.reviews-photo { 
+    padding-left: 12%;
+}
+
+
+.reviews-next {
+    transform: translateY(0%);
+    transform: translateX(-600%);
    
 }
+}
+
+@media only screen and (min-width: 1440px) { 
+.reviews-next {
+        transform: translateY(0%);
+        transform: translateX(-2600%);
+
+    }
+}
+
+
+
+
+
+
+
