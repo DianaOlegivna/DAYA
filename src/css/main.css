@@ -5,7 +5,7 @@
     }
 
 .hero-title {
-    font-size: clamp(35px, 10vw, 38px);
+    font-size: clamp(24px, 10vw, 38px);
     line-height: 2.86184;
     color: #fff;
 }
@@ -40,10 +40,10 @@ margin-left: 115px;
 content: "";
     position: absolute;
     left: 0%;
-    top: 45px;
+    top: 30px;
     transform: translateX(0%) rotate(180deg);
     width: 1px;
-    height: 170px;
+    height: 120px;
     background-color: #fff;
 }
 
@@ -371,6 +371,10 @@ font-weight: 600;
     margin-bottom: 42px;
 }
 
+.faq-span { 
+    color: #0045FF;
+}
+
 .faq-title { 
     margin-bottom: 24px;
         font-size: 31px;
@@ -381,12 +385,17 @@ font-weight: 600;
         font-size: 19px;
         line-height: 1.31579;
         cursor: pointer;
+        background-color: #0045ff;
+            border-radius: 16px;
+            padding: 16px 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
 }
 
 .faq-answer { 
         font-size: 20px;
         line-height: 1.25;
-        max-width: 350px;
+        max-width: 300px;
 }
 
 .details.hidden {
@@ -400,19 +409,49 @@ font-weight: 600;
 .details.show {
     display: block;
     opacity: 1;
-    max-height: 200px;
+    max-height: 800px;
 }
+.faq-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 12px;
+}
+
 
 @media screen and (min-width: 768px) { 
     .faq-item { 
-        transform: translateX(15%);
+    margin-left: 10%;
     }
+    .faq-answer {
+        max-width: 700px;
+    }
+
+        .faq-images {
+            display: flex;
+            gap: 12px;
+            margin-top: 12px;
+        }
 }
 
 @media only screen and (min-width: 1440px) { 
-    .faq-item {
-            transform: translateX(10%);
+    .faq-question { 
+        max-width: 700px;
+    }
+
+    .faq-answer { 
+        max-width: 700px;
+    }
+
+        .faq-images {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            margin-top: 12px;
         }
+   
+
+
 }
 
 
@@ -423,9 +462,8 @@ font-weight: 600;
 }
 
 .reviews { 
-        font-size: 24px;
+        font-size: 31px;
         line-height: 1.04167;
-        color: #0045ff;
         margin-bottom: 24px;
 }
 
