@@ -6,7 +6,8 @@
 
 .hero-title {
     font-size: clamp(24px, 10vw, 38px);
-    line-height: 1.5;
+    max-width: 400px;
+        line-height: 2.1;
     color: #fff;
 }
 
@@ -97,6 +98,7 @@ content: "";
     .hero-title { 
         font-size: 48px;
         line-height: 2.26562;
+        max-width: 768px;
     }
 
     .hero-one-span {
@@ -121,6 +123,7 @@ content: "";
     .hero-title {
                 font-size: 96px;
                 line-height: 1.13281;
+                max-width: 1440px;
         }
     
         .hero-one-span {
