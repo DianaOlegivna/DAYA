@@ -36,6 +36,30 @@ margin-left: 115px;
     padding: 2px 4px;
 }
 
+.hero-hand { 
+    
+        margin-left: 10px;
+        animation: poke 1s infinite;
+}
+
+@keyframes poke {
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    30% {
+        transform: translateX(6px) rotate(0deg);
+    }
+
+    60% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+    }
+}
+
 .hero-span::after {
 content: "";
     position: absolute;
@@ -45,6 +69,8 @@ content: "";
     width: 1px;
     height: 120px;
     background-color: #fff;
+    height: clamp(120px, 10vw, 165px);
+        
 }
 
 .hero-paragraph { 
@@ -79,14 +105,9 @@ content: "";
     }
 
         .hero-span::after {
-            content: "";
-            position: absolute;
-            left: 0%;
             top: 55px;
             transform: translateX(0%) rotate(180deg);
-            width: 1px;
             height: 165px;
-            background-color: #fff;
         }
     
         .hero-description { 
@@ -124,6 +145,16 @@ content: "";
             top: 19%;
             max-width: 300px;
         }
+
+                .hero-button {
+                    background-color: #0045FF;
+                    border: none;
+                    color: #fff;
+                    font-size: 18px;
+                    line-height: 1.38889;
+                    margin-bottom: 50px;
+                    padding: 4px 4px;
+                }
 }
 
 
