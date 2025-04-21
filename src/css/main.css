@@ -6,7 +6,7 @@
 
 .hero-title {
     font-size: clamp(24px, 10vw, 38px);
-    line-height: 2.86184;
+    line-height: 2.1;
     color: #fff;
 }
 
@@ -33,7 +33,7 @@ margin-left: 115px;
         font-size: 18px;
         line-height: 1.38889;
     margin-bottom: 50px;
-    padding: 2px 4px;
+    padding: 4px 4px;
 }
 
 .hero-hand { 
@@ -67,9 +67,8 @@ content: "";
     top: 30px;
     transform: translateX(0%) rotate(180deg);
     width: 1px;
-    height: 120px;
     background-color: #fff;
-    height: clamp(120px, 10vw, 165px);
+    height: clamp(120px, 10vw, 120px);
         
 }
 
