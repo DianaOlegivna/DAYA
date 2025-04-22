@@ -6,8 +6,9 @@
 
 .hero-title {
     max-width: 400px;
-        line-height: 2.1;
-    color: #fff;
+        font-size: 34px;
+        line-height: 2.86184;
+        color: #fff;
 }
 
 .hero-one-span { 
