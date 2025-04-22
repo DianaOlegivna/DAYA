@@ -5,7 +5,7 @@
     }
 
 .hero-title {
-    max-width: 400px;
+    max-width: 350px;
         font-size: 34px;
         line-height: 2.86184;
         color: #fff;
@@ -65,11 +65,11 @@ margin-left: 115px;
 content: "";
     position: absolute;
     left: 0%;
-    top: 30px;
+    top: 42px;
     transform: translateX(0%) rotate(180deg);
     width: 1px;
     background-color: #fff;
-    height: clamp(120px, 10vw, 120px);
+    height: clamp(157px, 10vw, 120px);
         
 }
 
@@ -506,6 +506,13 @@ font-weight: 600;
         margin-bottom: 16px;
 }
 
+.reviews-title-two { 
+    font-size: 34px;
+        line-height: 1.13372;
+        margin-bottom: 16px;
+}
+
+
 .reviews-paragraph { 
     font-size: 21px;
     line-height: 1.11628;
@@ -534,6 +541,11 @@ font-weight: 600;
 .reviews-title { 
     padding-left: 12%;
 }
+
+.reviews-title-two {
+    padding-left: 12%;
+}
+
 .reviews-paragraph { 
     padding-left: 12%;
     max-width: 400px;
@@ -558,6 +570,11 @@ font-weight: 600;
 .reviews-title {
         padding-left: 16%;
     }
+
+.reviews-title-two {
+    padding-left: 16%;
+} 
+
 .reviews-paragraph {
     padding-left: 16%;
 }
