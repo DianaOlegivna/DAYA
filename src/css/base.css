@@ -23,8 +23,7 @@
 }
 
 html {
-  scroll-behavior: smooth;
-  
+  scroll-behavior: smooth; 
 } 
 body {
   display: flex;
@@ -33,12 +32,9 @@ body {
   min-height: 100vh;
   margin: 0;
   cursor: default;
-  
 }
 
 main {
   flex-grow: 1;
 }
-main:has(.back-link) {
-  text-align: center;
-}
+

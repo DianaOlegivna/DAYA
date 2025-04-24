@@ -20,7 +20,7 @@ margin-left: 115px;
 }
 
 .hero-span {
-    padding: 2px 4px;
+    padding: 1px 4px;
     position: relative;
     background: linear-gradient(145deg, #ff00ff, #00ffff);
     box-shadow:
@@ -250,14 +250,21 @@ content: "";
      font-size: 43px;
      line-height: 1.13372;
      margin: 50px;
+     position: absolute;
+     right: 46%;
+     top: 0%;
  }
 
  .about-me-paragraph {
     position: absolute;
         right: 48%;
-        top: 25%;
+        top: 23%;
         max-width: 350px;
  }
+
+  .about-me-photo {
+      margin-right: 5%;
+  }
 }
 
 @media only screen and (min-width: 1440px) { 
