@@ -49,22 +49,29 @@ display: flex;
 display: flex;
   align-items: flex-start;
   flex-direction: column;
-  border-radius: 42px;
     padding: 6px 6px 6px 6px;
     width: 302px;
     height: 192px;
-    background: #0045ff;
+    background: linear-gradient(145deg, #ff00ff, #00ffff);
+      color: #000;
+      border-radius: 12px;
+      
+      box-shadow:
+        0 0 10px #ff00ff,
+        0 0 20px #00ffff,
+        inset 0 0 10px rgba(255, 255, 255, 0.6);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .footer-text {
   font-weight: 800;
-  font-size: 23px;
+  font-size: 18px;
   line-height: 1.30435;
   letter-spacing: -0.02em;
   color: #ffffff;
-  text-align: center;
   margin-top: 16px;
   margin-left: 32px;
+  text-transform: uppercase;
 }
 
 .footer-text-two {
@@ -172,7 +179,9 @@ display: flex;
 
             .footer-link:hover,
             .footer-link:focus {
-              color: #0045FF;
+              background: linear-gradient(145deg, #ff00ff, #00ffff);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
             }
   
 }

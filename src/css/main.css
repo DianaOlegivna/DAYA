@@ -5,7 +5,6 @@
     }
 
 .hero-title {
-    max-width: 350px;
         font-size: 34px;
         line-height: 2.86184;
         color: #fff;
@@ -21,21 +20,38 @@ margin-left: 115px;
 }
 
 .hero-span {
-    background-color: #0045FF;
-    color: #fff;
     padding: 2px 4px;
     position: relative;
+    background: linear-gradient(145deg, #ff00ff, #00ffff);
+    box-shadow:
+            0 0 10px #ff00ff,
+            0 0 20px #00ffff,
+            inset 0 0 10px rgba(255, 255, 255, 0.6);
 }
 
-.hero-button { 
-    background-color: #0045FF;
-    border: none;
-    color: #fff;
-        font-size: 18px;
-        line-height: 1.38889;
-    margin-bottom: 50px;
-    padding: 4px 4px;
-}
+         .hero-button {
+            line-height: 1.38889;
+             font-size: 18px;
+             padding: 6px 6px;
+             border: 2px solid #00ffff;
+             background: linear-gradient(145deg, #ff00ff, #00ffff);
+             color: #000;
+             border-radius: 12px;
+            text-transform: uppercase;
+             box-shadow:
+                 0 0 10px #ff00ff,
+                 0 0 20px #00ffff,
+                 inset 0 0 10px rgba(255, 255, 255, 0.6);
+             transition: transform 0.2s ease, box-shadow 0.2s ease;
+         }
+    
+         .hero-button:hover {
+             transform: scale(1.05);
+             box-shadow:
+                 0 0 20px #ff00ff,
+                 0 0 30px #00ffff,
+                 inset 0 0 20px rgba(255, 255, 255, 0.8);
+         }
 
 .hero-hand { 
     
@@ -69,7 +85,7 @@ content: "";
     transform: translateX(0%) rotate(180deg);
     width: 1px;
     background-color: #fff;
-    height: clamp(157px, 10vw, 120px);
+    height: clamp(145px, 10vw, 120px);
         
 }
 
@@ -148,15 +164,12 @@ content: "";
             max-width: 300px;
         }
 
-                .hero-button {
-                    background-color: #0045FF;
-                    border: none;
-                    color: #fff;
-                    font-size: 18px;
-                    line-height: 1.38889;
-                    margin-bottom: 50px;
-                    padding: 6px 6px;
-                }
+                           .hero-button {
+                               padding: 12px 12px;
+                               
+                           }
+            
+                           
 }
 
 
@@ -404,9 +417,7 @@ font-weight: 600;
     margin-bottom: 42px;
 }
 
-.faq-span { 
-    color: #0045FF;
-}
+
 
 .faq-title { 
     margin-bottom: 24px;
@@ -418,11 +429,24 @@ font-weight: 600;
         font-size: 19px;
         line-height: 1.31579;
         cursor: pointer;
-        background-color: #0045ff;
+        background: linear-gradient(145deg, #ff00ff, #00ffff);
+            box-shadow:
+                0 0 10px #ff00ff,
+                0 0 20px #00ffff,
+                inset 0 0 10px rgba(255, 255, 255, 0.6);
             border-radius: 16px;
             padding: 16px 24px;
             margin-bottom: 20px;
-            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+            border: 2px solid #00ffff;  
+             transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.faq-question:hover { 
+    transform: scale(1.05);
+        box-shadow:
+            0 0 20px #ff00ff,
+            0 0 30px #00ffff,
+            inset 0 0 20px rgba(255, 255, 255, 0.8);
 }
 
 .faq-answer { 
