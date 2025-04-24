@@ -35,7 +35,7 @@ margin-left: 115px;
              padding: 6px 6px;
              border: 2px solid #00ffff;
              background: linear-gradient(145deg, #ff00ff, #00ffff);
-             color: #000;
+             color: #fff;
              border-radius: 12px;
             text-transform: uppercase;
              box-shadow:
@@ -556,7 +556,7 @@ font-weight: 600;
 }
 
 .reviews-photo-two {
-    padding-left: 40%;
+    padding-left: 30%;
     width: 200px;
     height: 200px;
 } 
@@ -582,7 +582,7 @@ font-weight: 600;
 }
 
 .reviews-photo-two { 
-    padding-left: 45%;
+    padding-left: 60%;
         width: 200px;
         height: 200px;
 }
