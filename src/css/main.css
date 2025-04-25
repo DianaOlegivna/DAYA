@@ -5,7 +5,7 @@
     }
 
 .hero-title {
-        font-size: 34px;
+        font-size: 32px;
         line-height: 2.86184;
         color: #fff;
 }
@@ -24,34 +24,35 @@ margin-left: 115px;
     position: relative;
     background: linear-gradient(145deg, #ff00ff, #00ffff);
     box-shadow:
-            0 0 10px #ff00ff,
-            0 0 20px #00ffff,
-            inset 0 0 10px rgba(255, 255, 255, 0.6);
+        0 0 4px rgba(255, 0, 255, 0.5),
+        0 0 8px rgba(0, 255, 255, 0.5),
+        inset 0 0 5px rgba(255, 255, 255, 0.4);
 }
 
-         .hero-button {
-            line-height: 1.38889;
-             font-size: 18px;
-             padding: 6px 6px;
-             border: 2px solid #00ffff;
-             background: linear-gradient(145deg, #ff00ff, #00ffff);
-             color: #fff;
-             border-radius: 12px;
-            text-transform: uppercase;
-             box-shadow:
-                 0 0 10px #ff00ff,
-                 0 0 20px #00ffff,
-                 inset 0 0 10px rgba(255, 255, 255, 0.6);
-             transition: transform 0.2s ease, box-shadow 0.2s ease;
-         }
-    
-         .hero-button:hover {
-             transform: scale(1.05);
-             box-shadow:
-                 0 0 20px #ff00ff,
-                 0 0 30px #00ffff,
-                 inset 0 0 20px rgba(255, 255, 255, 0.8);
-         }
+.hero-button {
+    line-height: 1.38889;
+    font-size: 18px;
+    padding: 6px 6px;
+    border: 2px solid rgba(0, 255, 255, 0.7);
+    background: linear-gradient(145deg, #ff00ff, #00ffff);
+    color: #fff;
+    border-radius: 12px;
+    text-transform: uppercase;
+    box-shadow:
+        0 0 4px rgba(255, 0, 255, 0.5),
+        0 0 8px rgba(0, 255, 255, 0.5),
+        inset 0 0 5px rgba(255, 255, 255, 0.4);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hero-button:hover {
+    transform: scale(1.05);
+    box-shadow:
+        0 0 8px rgba(255, 0, 255, 0.7),
+        0 0 12px rgba(0, 255, 255, 0.7),
+        inset 0 0 8px rgba(255, 255, 255, 0.5);
+}
+
 
 .hero-hand { 
     
@@ -81,11 +82,11 @@ margin-left: 115px;
 content: "";
     position: absolute;
     left: 0%;
-    top: 42px;
+    top: 38px;
     transform: translateX(0%) rotate(180deg);
     width: 1px;
     background-color: #fff;
-    height: clamp(145px, 10vw, 120px);
+    height: clamp(138px, 10vw, 120px);
         
 }
 
@@ -438,9 +439,9 @@ font-weight: 600;
         cursor: pointer;
         background: linear-gradient(145deg, #ff00ff, #00ffff);
             box-shadow:
-                0 0 10px #ff00ff,
-                0 0 20px #00ffff,
-                inset 0 0 10px rgba(255, 255, 255, 0.6);
+                0 0 4px rgba(255, 0, 255, 0.5),
+                0 0 8px rgba(0, 255, 255, 0.5),
+                inset 0 0 5px rgba(255, 255, 255, 0.4);
             border-radius: 16px;
             padding: 16px 24px;
             margin-bottom: 20px;
@@ -451,9 +452,9 @@ font-weight: 600;
 .faq-question:hover { 
     transform: scale(1.05);
         box-shadow:
-            0 0 20px #ff00ff,
-            0 0 30px #00ffff,
-            inset 0 0 20px rgba(255, 255, 255, 0.8);
+                0 0 8px rgba(255, 0, 255, 0.7),
+                0 0 12px rgba(0, 255, 255, 0.7),
+                inset 0 0 8px rgba(255, 255, 255, 0.5);
 }
 
 .faq-answer { 
