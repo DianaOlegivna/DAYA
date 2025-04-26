@@ -150,6 +150,7 @@
   height: 24px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   right: 24px;
+  background: linear-gradient(145deg, #ff00ff, #00ffff);
 }
 
 
@@ -182,14 +183,14 @@
   line-height: 1.6;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  background-color: #fff;
+  background: linear-gradient(145deg, #ff00ff, #00ffff);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
 .menu-link-nav:focus,
 .menu-link-nav:hover {
-  background-color: #ffffff;
+  background: linear-gradient(145deg, #ff00ff, #00ffff);
   color: #141619;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
