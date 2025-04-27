@@ -2,6 +2,7 @@
 
 .hero-section  {
         margin-bottom: 72px;
+            position: relative;
     }
 
 .hero-title {
@@ -376,43 +377,6 @@ font-weight: 600;
         }
 }
 
-/* Services section */
-.services-section {
-    margin-bottom: 72px;
-}
-
-.services-title { 
-        font-size: 28px;
-        line-height: 1.57258;
-        color: #0045ff;
-}
-
-.services-list-title { 
-        font-size: 28px;
-        line-height: 1.14286;
-        text-transform: lowercase;
-        color: #fff;
-}
-
-.services-list-text  {
-        font-size: 21px;
-        line-height: 1.66667;
-        color: #fff;
-}
-
-.services-list {
-    padding-bottom: 32px; 
-}
-
-.services-paragraph { 
-        font-size: 44px;
-        line-height: 1.71875;
-        color: #fff;
-        background-image: url('../img/webp/Clipped_image_20250407_155005.png');
-        background-size: 200px 400px;
-            background-position: right;
-            background-repeat: no-repeat;
-}
 
 
 /* FAQ section */
@@ -619,8 +583,8 @@ font-weight: 600;
 
 .reviews-photo-two { 
     padding-left: 60%;
-        width: 250px;
-        height: 250px;
+        width: 270px;
+        height: 270px;
 }
 }
 
