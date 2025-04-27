@@ -1,6 +1,5 @@
 .header {
   padding: 20px 0;
-  margin-bottom: 32px;
 }
 
 .header .container {
@@ -93,6 +92,10 @@
     gap: 90px;
     margin-left: 190px;
   }
+.header {
+  padding: 20px 0;
+  margin-bottom: 32px;
+}
 }
 
 
