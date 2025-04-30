@@ -35,6 +35,8 @@ export function initSwiper() {
     modules: [Navigation, Keyboard],
     loop: false,
     slidesPerView: 1,
+    spaceBetween: 20,
+    centeredSlides: true,
     navigation: {
       nextEl: '.reviews-next',
       prevEl: '.reviews-prev',
@@ -44,7 +46,18 @@ export function initSwiper() {
       onlyInViewport: true,
     },
     grabCursor: true,
-    
+    breakpoints: {
+       768: {
+      slidesPerView: 2,
+      centeredSlides: false, // або true, якщо більше слайдів
+    },
+
+      1440: {
+        slidesPerView: 2,
+        spaceBetween: 70,
+        centeredSlides: false,
+      },
+    },
     on: {
       init(swiper) {
         updateButtons(swiper, '.reviews-prev', '.reviews-next');

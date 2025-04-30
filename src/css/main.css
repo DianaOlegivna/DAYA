@@ -503,89 +503,62 @@ font-weight: 600;
 }
 
 .reviews-title-two { 
-    font-size: 34px;
+    font-size: 32px;
         line-height: 1.13372;
-        margin-bottom: 16px;
 }
 
 
 .reviews-paragraph { 
-    font-size: 21px;
+    font-size: 18px;
     line-height: 1.11628;
-    margin-bottom: 16px;
-}
-
-.reviews-prev,
-.reviews-next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(0%);
-    z-index: 10;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.reviews-photo-two {
-    padding-left: 30%;
-    width: 200px;
-    height: 200px;
-} 
-
-@media screen and (min-width: 768px) { 
-.reviews-title { 
-    padding-left: 12%;
-}
-
-.reviews-title-two {
-    padding-left: 12%;
-}
-
-.reviews-paragraph { 
-    padding-left: 12%;
-    max-width: 400px;
-}
-
-.reviews-photo { 
-    padding-left: 45%;
-    width: 350px;
-    height: 200px;
-}
-
-.reviews-photo-two { 
-    padding-left: 60%;
-        width: 200px;
-        height: 200px;
-}
-
 
 }
 
-@media only screen and (min-width: 1440px) { 
-.reviews-title {
-        padding-left: 16%;
-    }
+.reviews-swiper .swiper-slide {
+    background-color: #2b2b2b;
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    max-width: 280px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    justify-content: space-between;
+    overflow: hidden;
+    color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
-.reviews-title-two {
-    padding-left: 16%;
-} 
-
-.reviews-paragraph {
-    padding-left: 16%;
+.swiper-wrapper .swiper-slide:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 28px rgba(0, 0, 0, 0.5);
 }
 
 .reviews-photo {
-    padding-left: 50%;
-    width: 550px;
-    height: 330px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
 }
 
 .reviews-photo-two { 
-    padding-left: 60%;
-        width: 270px;
-        height: 270px;
+   margin-left: 140px;
 }
+
+ 
+ 
+@media screen and (max-width: 768px) {
+    }
+
+
+@media only screen and (min-width: 1440px) { 
+.reviews-swiper .swiper-slide  {
+       margin-left: 160px;
+    }
+
+
 }
 
 
