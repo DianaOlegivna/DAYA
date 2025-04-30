@@ -497,7 +497,7 @@ font-weight: 600;
 }
 
 .reviews-title { 
-    font-size: 34px;
+    font-size: 30px;
         line-height: 1.13372;
         margin-bottom: 16px;
 }
@@ -547,8 +547,6 @@ font-weight: 600;
    margin-left: 140px;
 }
 
- 
- 
 @media screen and (max-width: 768px) {
     }
 
