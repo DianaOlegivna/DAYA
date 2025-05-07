@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://daya.in.ua/sitemap.xml
