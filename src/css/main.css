@@ -7,13 +7,24 @@
 
 .hero-title {
         font-size: 32px;
-        line-height: 2.86184;
-        color: #fff;
+        line-height: 2.86184;  
 }
 
 .hero-one-span { 
 margin-left: 115px;
 }
+
+.hero-span::after {
+    content: "";
+    position: absolute;
+    left: 0%;
+    top: 38px;
+    transform: translateX(0%) rotate(180deg);
+    width: 1px;
+    background-color: #fff;
+    height: clamp(138px, 10vw, 120px);
+
+} 
 
 .hero-hand { 
     fill: #fff;
@@ -23,11 +34,7 @@ margin-left: 115px;
 .hero-span {
     padding: 1px 4px;
     position: relative;
-    background: linear-gradient(145deg, #ff00ff, #00ffff);
-    box-shadow:
-        0 0 4px rgba(255, 0, 255, 0.5),
-        0 0 8px rgba(0, 255, 255, 0.5),
-        inset 0 0 5px rgba(255, 255, 255, 0.4);
+    background: linear-gradient(90deg, #d96df9, #3c8dbc);
 }
 
 .hero-button {
@@ -35,7 +42,7 @@ margin-left: 115px;
     font-size: 18px;
     padding: 6px 6px;
     border: 2px solid rgba(0, 255, 255, 0.7);
-    background: linear-gradient(145deg, #ff00ff, #00ffff);
+    background: linear-gradient(90deg, #d96df9, #3c8dbc);
     color: #fff;
     border-radius: 12px;
     text-transform: uppercase;
@@ -79,17 +86,6 @@ margin-left: 115px;
     }
 }
 
-.hero-span::after {
-content: "";
-    position: absolute;
-    left: 0%;
-    top: 38px;
-    transform: translateX(0%) rotate(180deg);
-    width: 1px;
-    background-color: #fff;
-    height: clamp(138px, 10vw, 120px);
-        
-}
 
 .hero-paragraph { 
         font-size: 20px;
@@ -122,12 +118,11 @@ content: "";
     .hero-one-span {
         margin-left: 140px;
     }
-
-        .hero-span::after {
-            top: 55px;
-            transform: translateX(0%) rotate(180deg);
-            height: 165px;
-        }
+  .hero-span::after {
+      top: 55px;
+      transform: translateX(0%) rotate(180deg);
+      height: 165px;
+  }
     
         .hero-description { 
             position: absolute;
@@ -152,7 +147,7 @@ content: "";
              content: "";
              position: absolute;
              left: 0%;
-             top: 110px;
+             top: 108px;
              transform: translateX(0%) rotate(180deg);
              width: 1px;
              height: 140px;
@@ -167,7 +162,7 @@ content: "";
         }
 
                            .hero-button {
-                               padding: 12px 12px;
+                               padding: 8px 8px;
                                
                            }
             
@@ -177,7 +172,7 @@ content: "";
 
 /* About me */ 
 .about-me-section { 
-    margin-bottom: 92px;
+    margin-bottom: 72px;
     position: relative;
 }
 
@@ -301,7 +296,7 @@ content: "";
 
 /* Projects section */
 .projects-section { 
-    margin-bottom: 92px;
+    margin-bottom: 72px;
 }
 
 .projects-swiper {
@@ -382,7 +377,7 @@ font-weight: 600;
 /* FAQ section */
 
 .FAQ-section {
-    margin-bottom: 92px;
+    margin-bottom: 72px;
 } 
 
 .faq-item { 
@@ -401,7 +396,7 @@ font-weight: 600;
         font-size: 19px;
         line-height: 1.31579;
         cursor: pointer;
-        background: linear-gradient(145deg, #ff00ff, #00ffff);
+        background: linear-gradient(90deg, #d96df9, #3c8dbc);
             box-shadow:
                 0 0 4px rgba(255, 0, 255, 0.5),
                 0 0 8px rgba(0, 255, 255, 0.5),
@@ -487,7 +482,7 @@ font-weight: 600;
 /* Reviews section */
 
 .reviews-section { 
-    margin-bottom: 92px;
+    margin-bottom: 72px;
 }
 
 .reviews { 
@@ -518,7 +513,6 @@ font-weight: 600;
     background-color: #2b2b2b;
     border-radius: 16px;
     padding: 2rem;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
     max-width: 280px;
     height: auto;
     display: flex;
@@ -532,7 +526,7 @@ font-weight: 600;
 
 .swiper-wrapper .swiper-slide:hover {
     transform: translateY(-6px);
-    box-shadow: 0 6px 28px rgba(0, 0, 0, 0.5);
+
 }
 
 .reviews-photo {

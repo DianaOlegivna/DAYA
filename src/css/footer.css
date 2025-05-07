@@ -56,7 +56,7 @@ display: flex;
       color: #000;
       border-radius: 12px;
       
-      background: linear-gradient(145deg, #ff00ff, #00ffff);
+      background-color: #2b2b2b;
         box-shadow:
           0 0 4px rgba(255, 0, 255, 0.5),
           0 0 8px rgba(0, 255, 255, 0.5),
@@ -110,7 +110,7 @@ display: flex;
 
 .footer-button:hover,
 .footer-button:focus { 
-  background: #02033b;
+  background: #1e1e1e;
   color:#fff;
 }
 
