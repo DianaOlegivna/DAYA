@@ -5,28 +5,16 @@
 }
 
 .footer-svg { 
-fill: #fff;
+fill: #0045ff;
 margin-left: 35px;
   margin-right: 40px;
  
-}
-
-.footer-svg:hover,
-.footer-svg:focus {
-  fill: #0045ff;
-  
 }
 
 .footer-viber { 
   fill: #0045ff;
 
 }
-
-.footer-viber:focus,
-.footer-viber:hover { 
-  fill:#fff;
-}
-
 
 .nav-logo-icon {
   display: none;
@@ -56,7 +44,7 @@ display: flex;
       color: #000;
       border-radius: 12px;
       
-      background-color: #2b2b2b;
+      background-color: #E9EBED;
         box-shadow:
           0 0 4px rgba(255, 0, 255, 0.5),
           0 0 8px rgba(0, 255, 255, 0.5),
@@ -69,7 +57,8 @@ display: flex;
   font-size: 18px;
   line-height: 1.30435;
   letter-spacing: -0.02em;
-  color: #ffffff;
+  color: #333333;
+  
   margin-top: 16px;
   margin-left: 32px;
   text-transform: uppercase;
@@ -79,21 +68,20 @@ display: flex;
   font-weight: 500;
     font-size: 18px;
     line-height: 1.33333;
-    color: #ffffff;
+    color: #333333;
     margin-left: 32px;
     margin-top: 16px;
   text-align: center;
 }
 
 .footer-button { 
-  background: #fff;
   font-weight: 500;
     font-size: 14px;
     line-height: 1.28571;
     text-align: center;
-    color: #02033b;
+    color: #333333;
     border: none;
-    box-shadow: 3px 3px 0 0 #2e2f35;
+    box-shadow: 2px 2px 0 0 #333333;
     background: #fff;
     border-radius: 12px;
     cursor: pointer;
@@ -110,7 +98,7 @@ display: flex;
 
 .footer-button:hover,
 .footer-button:focus { 
-  background: #1e1e1e;
+  background: #3d51ff;
   color:#fff;
 }
 
@@ -124,6 +112,7 @@ display: flex;
 .nav-logo-icon {
     display: flex;
     margin-bottom: 60px;
+    font-size: 24px;
   }
 
   .footer-list {
@@ -176,7 +165,13 @@ display: flex;
       .footer-paragraph { 
           display: flex;
          transform: translateX(40%);
+         color: #2b2b2b;
       }
+
+      .footer-link { 
+        color:#2b2b2b;
+      }
+
 
             .footer-link:hover,
             .footer-link:focus {
@@ -219,5 +214,6 @@ display: flex;
         .nav-logo-icon {
           display: flex;
           margin-bottom: 40px;
+          
         }
 }
