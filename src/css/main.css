@@ -14,9 +14,10 @@
 
 
 .hero-title {
-        font-size: 32px;
-        line-height: 2.86184;  
-        margin-bottom: 24px;
+        font-size: 40px;
+        line-height: 2.46184;  
+        margin-bottom: 28px;
+        text-align: left;
 }
  
 
@@ -51,8 +52,7 @@
         font-size: 20px;
         line-height: 1.17073;
         color: #333333;
-        font-weight: 600;
-        
+        font-weight: 600;   
 }
 
 .hero-two-span { 
@@ -93,12 +93,12 @@
                 .hero-container {
                     background-color: #E9EBED;
                     border-radius: 16px;
-                    padding: 80px;     
+                    padding: 70px;     
                   }
 
     .hero-title {
                 font-size: 92px;
-                line-height: 1.13281;
+                line-height: 1.33281;
                 max-width: 1440px;
         }
     
@@ -542,7 +542,7 @@ font-weight: 600;
         .reviews-container {
             background-color: #E9EBED;
             border-radius: 16px;
-            padding: 80px;
+            padding: 80px 70px;
         }
 
 
