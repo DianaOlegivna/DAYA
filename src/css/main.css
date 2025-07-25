@@ -73,7 +73,7 @@
 #lottie-container {
     position: absolute;
     left: 65%;
-    top: 45%;
+    top: 55%;
     width: 100px;
     height: 100px;
 }
@@ -214,6 +214,10 @@
         line-height: 1.17073;
     max-width: 200px;
     align-items: center;
+}
+
+.about-me-photo {
+    border-radius: 16px;
 }
 
 .highlight {
