@@ -522,8 +522,8 @@ font-weight: 600;
 }
 
 .reviews-title-two { 
-    font-size: 31px;
-        line-height: 1.13372;
+    font-size: 28px;
+        line-height: 1.53372;
 }
 
 
@@ -563,6 +563,22 @@ font-weight: 600;
 
 .reviews-photo-two { 
    margin-left: 140px;
+}
+
+.reviews-button { 
+    line-height: 1.38889;
+        font-size: 14px;
+        padding: 10px 10px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        color: #333333;
+        border-radius: 8px;
+        text-transform: uppercase;
+        box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        display: flex;
+        justify-content: center;
 }
 
 @media screen and (max-width: 768px) {
