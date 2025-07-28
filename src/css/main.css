@@ -72,10 +72,10 @@
 
 #lottie-container {
     position: absolute;
-    left: 65%;
+    left: 60%;
     top: 55%;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
 }
 
 @media screen and (min-width: 768px) { 
@@ -212,7 +212,7 @@
 .about-me-text {
         font-size: 20px;
         line-height: 1.17073;
-    max-width: 200px;
+    max-width: 160px;
     align-items: center;
 }
 
@@ -522,7 +522,7 @@ font-weight: 600;
 }
 
 .reviews-title-two { 
-    font-size: 28px;
+    font-size: 30px;
         line-height: 1.53372;
 }
 
