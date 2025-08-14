@@ -71,11 +71,7 @@
 
 
 #lottie-container {
-    position: absolute;
-    left: 60%;
-    top: 55%;
-    width: 120px;
-    height: 120px;
+    display: none;
 }
 
 @media screen and (min-width: 768px) { 
@@ -96,10 +92,6 @@
     .hero-button { 
         padding: 12px 12px;
         margin: 0px;
-    }
-
-    #lottie-container { 
-        display: none;
     }
     
 }
