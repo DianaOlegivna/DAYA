@@ -14,20 +14,17 @@
 
 .hero-button {
     line-height: 1.38889;
-    font-size: 14px;
-    padding: 10px 10px;
+    padding: 16px 32px;
+        font-size: 18px;
     background-color: #00bfa6;
     color: #f5f5f5;
     border-radius: 8px;
     transition: transform 0.2s ease, box-shadow 0.2s ease;  
-    display: flex;
-    justify-content: center;
-    
 }
 .hero-button-two { 
     line-height: 1.38889;
-        font-size: 14px;
-        padding: 10px 10px;
+        padding: 16px 32px;
+            font-size: 18px;
         background-color: #ff6b6b;
         color: #f5f5f5;
         border-radius: 8px;
@@ -46,15 +43,7 @@
     background-color: #158787;
 }
 
-.hero-button {
-    padding: 12px 32px;
-    font-size: 18px;
-}
 
-.hero-button-two {
-    padding: 12px 32px;
-    font-size: 18px;
-}
 
 
 .hero-paragraph { 
@@ -128,7 +117,9 @@
 }
 }
 
-
+.slider-card { 
+    margin-bottom: 72px;
+}
 
 .slider {
     overflow: hidden;
