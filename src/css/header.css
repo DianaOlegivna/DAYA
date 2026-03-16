@@ -62,7 +62,7 @@
     
         .nav-link:hover,
         .nav-link:focus {
-        background: linear-gradient(90deg, #d96df9, #3f64c9);
+        background: linear-gradient(90deg, #00bfa6, #ff6b6b);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
         }
